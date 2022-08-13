@@ -11,11 +11,18 @@
 		C6EAB71928A815D5000E7AF4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EAB71828A815D5000E7AF4 /* SceneDelegate.swift */; };
 		C6EAB71B28A815D5000E7AF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EAB71A28A815D5000E7AF4 /* ViewController.swift */; };
 		C6EAB71E28A815D5000E7AF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6EAB71C28A815D5000E7AF4 /* Main.storyboard */; };
-		C6EAB72028A815D6000E7AF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6EAB71F28A815D6000E7AF4 /* Assets.xcassets */; };
 		C6EAB72328A815D6000E7AF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6EAB72128A815D6000E7AF4 /* LaunchScreen.storyboard */; };
 		C6EAB72E28A815D6000E7AF4 /* DemoMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EAB72D28A815D6000E7AF4 /* DemoMVVMTests.swift */; };
 		C6EAB73828A815D6000E7AF4 /* DemoMVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EAB73728A815D6000E7AF4 /* DemoMVVMUITests.swift */; };
 		C6EAB73A28A815D6000E7AF4 /* DemoMVVMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EAB73928A815D6000E7AF4 /* DemoMVVMUITestsLaunchTests.swift */; };
+		C6EAB75128A8233B000E7AF4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C6EAB74828A8233B000E7AF4 /* Info.plist */; };
+		C6EAB75228A8233B000E7AF4 /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6EAB74B28A8233B000E7AF4 /* Poppins-BoldItalic.ttf */; };
+		C6EAB75328A8233B000E7AF4 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6EAB74C28A8233B000E7AF4 /* Poppins-Medium.ttf */; };
+		C6EAB75428A8233B000E7AF4 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6EAB74D28A8233B000E7AF4 /* Poppins-Regular.ttf */; };
+		C6EAB75528A8233B000E7AF4 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6EAB74E28A8233B000E7AF4 /* Poppins-SemiBold.ttf */; };
+		C6EAB75628A8233B000E7AF4 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6EAB74F28A8233B000E7AF4 /* Poppins-MediumItalic.ttf */; };
+		C6EAB75728A8233B000E7AF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6EAB75028A8233B000E7AF4 /* Assets.xcassets */; };
+		C6EAB75928A82381000E7AF4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6EAB75828A82381000E7AF4 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,14 +48,20 @@
 		C6EAB71828A815D5000E7AF4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C6EAB71A28A815D5000E7AF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C6EAB71D28A815D5000E7AF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C6EAB71F28A815D6000E7AF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6EAB72228A815D6000E7AF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C6EAB72428A815D6000E7AF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6EAB72928A815D6000E7AF4 /* DemoMVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoMVVMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6EAB72D28A815D6000E7AF4 /* DemoMVVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoMVVMTests.swift; sourceTree = "<group>"; };
 		C6EAB73328A815D6000E7AF4 /* DemoMVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoMVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6EAB73728A815D6000E7AF4 /* DemoMVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoMVVMUITests.swift; sourceTree = "<group>"; };
 		C6EAB73928A815D6000E7AF4 /* DemoMVVMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoMVVMUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C6EAB74828A8233B000E7AF4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6EAB74B28A8233B000E7AF4 /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		C6EAB74C28A8233B000E7AF4 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		C6EAB74D28A8233B000E7AF4 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		C6EAB74E28A8233B000E7AF4 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		C6EAB74F28A8233B000E7AF4 /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		C6EAB75028A8233B000E7AF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6EAB75828A82381000E7AF4 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +112,11 @@
 		C6EAB71528A815D5000E7AF4 /* DemoMVVM */ = {
 			isa = PBXGroup;
 			children = (
-				C6EAB71628A815D5000E7AF4 /* AppDelegate.swift */,
-				C6EAB71828A815D5000E7AF4 /* SceneDelegate.swift */,
+				C6EAB74628A82303000E7AF4 /* App+Scene[Delegates] */,
+				C6EAB74728A8231B000E7AF4 /* Resource */,
 				C6EAB71A28A815D5000E7AF4 /* ViewController.swift */,
 				C6EAB71C28A815D5000E7AF4 /* Main.storyboard */,
-				C6EAB71F28A815D6000E7AF4 /* Assets.xcassets */,
 				C6EAB72128A815D6000E7AF4 /* LaunchScreen.storyboard */,
-				C6EAB72428A815D6000E7AF4 /* Info.plist */,
 			);
 			path = DemoMVVM;
 			sourceTree = "<group>";
@@ -125,6 +136,46 @@
 				C6EAB73928A815D6000E7AF4 /* DemoMVVMUITestsLaunchTests.swift */,
 			);
 			path = DemoMVVMUITests;
+			sourceTree = "<group>";
+		};
+		C6EAB74628A82303000E7AF4 /* App+Scene[Delegates] */ = {
+			isa = PBXGroup;
+			children = (
+				C6EAB71628A815D5000E7AF4 /* AppDelegate.swift */,
+				C6EAB71828A815D5000E7AF4 /* SceneDelegate.swift */,
+			);
+			path = "App+Scene[Delegates]";
+			sourceTree = "<group>";
+		};
+		C6EAB74728A8231B000E7AF4 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C6EAB74928A8233B000E7AF4 /* Fonts */,
+				C6EAB75028A8233B000E7AF4 /* Assets.xcassets */,
+				C6EAB74828A8233B000E7AF4 /* Info.plist */,
+				C6EAB75828A82381000E7AF4 /* Localizable.strings */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		C6EAB74928A8233B000E7AF4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C6EAB74A28A8233B000E7AF4 /* Poppins */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		C6EAB74A28A8233B000E7AF4 /* Poppins */ = {
+			isa = PBXGroup;
+			children = (
+				C6EAB74B28A8233B000E7AF4 /* Poppins-BoldItalic.ttf */,
+				C6EAB74C28A8233B000E7AF4 /* Poppins-Medium.ttf */,
+				C6EAB74D28A8233B000E7AF4 /* Poppins-Regular.ttf */,
+				C6EAB74E28A8233B000E7AF4 /* Poppins-SemiBold.ttf */,
+				C6EAB74F28A8233B000E7AF4 /* Poppins-MediumItalic.ttf */,
+			);
+			path = Poppins;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +282,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6EAB75128A8233B000E7AF4 /* Info.plist in Resources */,
 				C6EAB72328A815D6000E7AF4 /* LaunchScreen.storyboard in Resources */,
-				C6EAB72028A815D6000E7AF4 /* Assets.xcassets in Resources */,
+				C6EAB75428A8233B000E7AF4 /* Poppins-Regular.ttf in Resources */,
+				C6EAB75728A8233B000E7AF4 /* Assets.xcassets in Resources */,
+				C6EAB75328A8233B000E7AF4 /* Poppins-Medium.ttf in Resources */,
+				C6EAB75928A82381000E7AF4 /* Localizable.strings in Resources */,
+				C6EAB75528A8233B000E7AF4 /* Poppins-SemiBold.ttf in Resources */,
 				C6EAB71E28A815D5000E7AF4 /* Main.storyboard in Resources */,
+				C6EAB75628A8233B000E7AF4 /* Poppins-MediumItalic.ttf in Resources */,
+				C6EAB75228A8233B000E7AF4 /* Poppins-BoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
