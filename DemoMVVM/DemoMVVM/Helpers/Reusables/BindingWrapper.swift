@@ -3,7 +3,6 @@
 //  Assignment
 //
 //  Created by Vijay Yadav on 29/12/20.
-//  Copyright © 2022 Vijay Yadav. All rights reserved.
 //
 
 import Foundation

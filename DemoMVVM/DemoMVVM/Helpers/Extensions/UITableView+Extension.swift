@@ -3,7 +3,6 @@
 //  CodingDemo
 //
 //  Created by Vijay Yadav on 13/04/21.
-//  Copyright © 2021 Vijay Yadav. All rights reserved.
 //
 
 import UIKit
