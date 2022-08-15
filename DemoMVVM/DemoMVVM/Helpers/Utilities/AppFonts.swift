@@ -33,8 +33,9 @@ extension AppFonts {
 }
 
 
-struct DefaultFonts{
-    static let titleFont = AppFonts.poppinsSemiBold.withSize(17.0)
-    static let subTitleFont = AppFonts.poppinsMedium.withSize(15.0)
-    static let descriptionFont = AppFonts.poppinsMediumItalic.withSize(14.0)
+struct DefaultFonts {
+    static let titleFont = AppFonts.poppinsSemiBold.withSize(15.0)
+    static let subTitleFont = AppFonts.poppinsMedium.withSize(14.0)
+    static let descriptionFont = AppFonts.poppinsMediumItalic.withSize(13.0)
+    static let small = AppFonts.poppinsRegular.withSize(12.0)
 }

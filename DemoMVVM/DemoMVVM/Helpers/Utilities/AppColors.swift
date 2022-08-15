@@ -12,6 +12,7 @@ struct AppColors {
     
     static let titleColor = UIColor.black
     static let subtitleColor = UIColor.lightgrey
+    static let defaultTextColor = UIColor.lightgrey
     static let viewTransparentColor = UIColor.clear
     static let patternImageColor = UIColor(patternImage: AppImages.backgroundImage!)
 }

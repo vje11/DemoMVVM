@@ -9,8 +9,8 @@
 import Foundation
 
 enum LandingListings: String, CaseIterable {
-    case PullRequests = "Closed Pull"
-    case Others
+    case PullRequests = "Closed Pull Requests"
+    case Others = "All Pull Requests"
     
     var value: String { return rawValue }
 }
