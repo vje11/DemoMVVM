@@ -23,6 +23,18 @@
 		C6EAB75628A8233B000E7AF4 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6EAB74F28A8233B000E7AF4 /* Poppins-MediumItalic.ttf */; };
 		C6EAB75728A8233B000E7AF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6EAB75028A8233B000E7AF4 /* Assets.xcassets */; };
 		C6EAB75928A82381000E7AF4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6EAB75828A82381000E7AF4 /* Localizable.strings */; };
+		C6EAB76B28A82460000E7AF4 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EAB75C28A82460000E7AF4 /* UIView+Extension.swift */; };
+		C6EAB76C28A82460000E7AF4 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EAB75D28A82460000E7AF4 /* UIViewController+Extension.swift */; };
+		C6EAB76D28A82460000E7AF4 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EAB75E28A82460000E7AF4 /* String+Extension.swift */; };
+		C6EAB76E28A82460000E7AF4 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EAB75F28A82460000E7AF4 /* UITableView+Extension.swift */; };
+		C6EAB76F28A82460000E7AF4 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EAB76128A82460000E7AF4 /* AppColors.swift */; };
+		C6EAB77028A82460000E7AF4 /* AppImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EAB76228A82460000E7AF4 /* AppImages.swift */; };
+		C6EAB77128A82460000E7AF4 /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EAB76328A82460000E7AF4 /* Storyboard.swift */; };
+		C6EAB77228A82460000E7AF4 /* AppEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EAB76528A82460000E7AF4 /* AppEnums.swift */; };
+		C6EAB77328A82460000E7AF4 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EAB76628A82460000E7AF4 /* AppConstants.swift */; };
+		C6EAB77428A82460000E7AF4 /* AppLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EAB76728A82460000E7AF4 /* AppLoader.swift */; };
+		C6EAB77528A82460000E7AF4 /* AppFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EAB76828A82460000E7AF4 /* AppFonts.swift */; };
+		C6EAB77628A82460000E7AF4 /* BindingWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EAB76A28A82460000E7AF4 /* BindingWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +74,18 @@
 		C6EAB74F28A8233B000E7AF4 /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
 		C6EAB75028A8233B000E7AF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6EAB75828A82381000E7AF4 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		C6EAB75C28A82460000E7AF4 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		C6EAB75D28A82460000E7AF4 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		C6EAB75E28A82460000E7AF4 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		C6EAB75F28A82460000E7AF4 /* UITableView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		C6EAB76128A82460000E7AF4 /* AppColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		C6EAB76228A82460000E7AF4 /* AppImages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppImages.swift; sourceTree = "<group>"; };
+		C6EAB76328A82460000E7AF4 /* Storyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
+		C6EAB76528A82460000E7AF4 /* AppEnums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppEnums.swift; sourceTree = "<group>"; };
+		C6EAB76628A82460000E7AF4 /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		C6EAB76728A82460000E7AF4 /* AppLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppLoader.swift; sourceTree = "<group>"; };
+		C6EAB76828A82460000E7AF4 /* AppFonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppFonts.swift; sourceTree = "<group>"; };
+		C6EAB76A28A82460000E7AF4 /* BindingWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BindingWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +138,7 @@
 			children = (
 				C6EAB74628A82303000E7AF4 /* App+Scene[Delegates] */,
 				C6EAB74728A8231B000E7AF4 /* Resource */,
+				C6EAB75A28A82460000E7AF4 /* Helpers */,
 				C6EAB71A28A815D5000E7AF4 /* ViewController.swift */,
 				C6EAB71C28A815D5000E7AF4 /* Main.storyboard */,
 				C6EAB72128A815D6000E7AF4 /* LaunchScreen.storyboard */,
@@ -176,6 +201,57 @@
 				C6EAB74F28A8233B000E7AF4 /* Poppins-MediumItalic.ttf */,
 			);
 			path = Poppins;
+			sourceTree = "<group>";
+		};
+		C6EAB75A28A82460000E7AF4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C6EAB75B28A82460000E7AF4 /* Extensions */,
+				C6EAB76028A82460000E7AF4 /* Utilities */,
+				C6EAB76928A82460000E7AF4 /* Reusables */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C6EAB75B28A82460000E7AF4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C6EAB75C28A82460000E7AF4 /* UIView+Extension.swift */,
+				C6EAB75D28A82460000E7AF4 /* UIViewController+Extension.swift */,
+				C6EAB75E28A82460000E7AF4 /* String+Extension.swift */,
+				C6EAB75F28A82460000E7AF4 /* UITableView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C6EAB76028A82460000E7AF4 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C6EAB76428A82460000E7AF4 /* AppEnums */,
+				C6EAB76128A82460000E7AF4 /* AppColors.swift */,
+				C6EAB76228A82460000E7AF4 /* AppImages.swift */,
+				C6EAB76328A82460000E7AF4 /* Storyboard.swift */,
+				C6EAB76628A82460000E7AF4 /* AppConstants.swift */,
+				C6EAB76728A82460000E7AF4 /* AppLoader.swift */,
+				C6EAB76828A82460000E7AF4 /* AppFonts.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C6EAB76428A82460000E7AF4 /* AppEnums */ = {
+			isa = PBXGroup;
+			children = (
+				C6EAB76528A82460000E7AF4 /* AppEnums.swift */,
+			);
+			path = AppEnums;
+			sourceTree = "<group>";
+		};
+		C6EAB76928A82460000E7AF4 /* Reusables */ = {
+			isa = PBXGroup;
+			children = (
+				C6EAB76A28A82460000E7AF4 /* BindingWrapper.swift */,
+			);
+			path = Reusables;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,7 +393,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6EAB71B28A815D5000E7AF4 /* ViewController.swift in Sources */,
+				C6EAB77028A82460000E7AF4 /* AppImages.swift in Sources */,
+				C6EAB77628A82460000E7AF4 /* BindingWrapper.swift in Sources */,
+				C6EAB77528A82460000E7AF4 /* AppFonts.swift in Sources */,
+				C6EAB77428A82460000E7AF4 /* AppLoader.swift in Sources */,
 				C6EAB71728A815D5000E7AF4 /* AppDelegate.swift in Sources */,
+				C6EAB76E28A82460000E7AF4 /* UITableView+Extension.swift in Sources */,
+				C6EAB76B28A82460000E7AF4 /* UIView+Extension.swift in Sources */,
+				C6EAB76C28A82460000E7AF4 /* UIViewController+Extension.swift in Sources */,
+				C6EAB77128A82460000E7AF4 /* Storyboard.swift in Sources */,
+				C6EAB77328A82460000E7AF4 /* AppConstants.swift in Sources */,
+				C6EAB76F28A82460000E7AF4 /* AppColors.swift in Sources */,
+				C6EAB76D28A82460000E7AF4 /* String+Extension.swift in Sources */,
+				C6EAB77228A82460000E7AF4 /* AppEnums.swift in Sources */,
 				C6EAB71928A815D5000E7AF4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -495,10 +583,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DemoMVVM/Info.plist;
+				INFOPLIST_FILE = DemoMVVM/Resource/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -511,6 +601,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.navi.DemoMVVM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -522,10 +613,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DemoMVVM/Info.plist;
+				INFOPLIST_FILE = DemoMVVM/Resource/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -538,6 +631,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.navi.DemoMVVM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
